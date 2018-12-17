@@ -150,12 +150,11 @@
 
     .bg-1 { 
         background-color: rgb(34, 36, 41);
-        color: #ffffff;
+        color: white;
         height: 900px;
     }
     .bg-2 { 
         height: 700px;
-        background-color: white; 
         color: black;
     }
     .bg-3 { 
@@ -232,9 +231,9 @@ h1 {
 
 .bioPic {
   padding-top: 0%;
-  float: right;
-  height: 100%;
-  width: 50%;
+  float: left;
+  height: 500px;
+  width: 400px;
 }
 
 
@@ -307,6 +306,7 @@ p {
 
 .conimg {
   float: left;
+  padding: 20px;
 }
 
 
@@ -316,7 +316,7 @@ p {
   
   <body>
 <!--navigation-->
-<nav class="navbar sticky-top navbar-light bg-light">
+<nav id="home" class="navbar sticky-top navbar-light bg-light">
   <a class="navbar-brand" href="#aboutMe">VNL</a>
   <ul class="nav navbar-nav">
      <li><a href="#home"><i class="bar"></i><span> HOME </span></a></li>
@@ -329,7 +329,7 @@ p {
   <!--end navigation-->        
   
   <!-- Home page -->
-  <div  id="home"class="container-fluid bg-1 text-center">
+  <div class="container-fluid bg-1 text-center">
    <h1>Hello I'm <span class="text-flicker-in-glow">Vanya Levchenko</span>.<br>
     I'm a full-stack developer.</h1>
     <nav class="navbar1 navbar-light bg-light">
@@ -351,7 +351,7 @@ p {
   <h2>Portfolio</h2>
   <div class="row">
       <div class=" hvrbox col-sm-4">
-      <p>Crystal collecter</p>
+      <!-- <p>Crystal collecter</p> -->
       <a href="https://vanya56.github.io/unit-4-game/">
       <img src="https://mail.google.com/mail/u/0?ui=2&ik=3c0a3258c2&attid=0.1.1&permmsgid=msg-f:1618814099025653857&th=16772ed8a1d17061&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ96l75HGgJdtXV7vQV7ZlHBGReo2iDRg8Ae1A7k7Cn82NQiWG60onUEV37YS1dPfh-XR9Ulfu3XrwtcrJMqk2j1UtXCq8zmHPdPXvO7iKCEidYVE09fxZfP-3c&disp=emb" class="img-responsive" alt="Image"style="display:inline width:250px;height:300px;">
       <div class="hvrbox-layer_top">
@@ -360,7 +360,7 @@ p {
         </div>
     </div>
     <div class="hvrbox col-sm-4">
-      <p>NY Times article search</p>
+      <!-- <p>NY Times article search</p> -->
       <a href="https://vanya56.github.io/nyTimesSearch/">
       <img src="https://mail.google.com/mail/u/0?ui=2&ik=3c0a3258c2&attid=0.1.1&permmsgid=msg-f:1618814733063296597&th=16772f6c41681655&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8JQDqJ3bVPiiAmJqo3AnFWRTQSdACtmRXS2Vd-ACdrorUXl1KsCW6agzki_R3cBvWEQHbsujU59xFAJl4gLkN1jutWk-zwdLTwdo5yKWzSoVSqXp6AxKeaPww&disp=emb" class="img-responsive" alt="Image"style="display:inline width:250px;height:300px;">
       <div class="hvrbox-layer_top">
@@ -369,8 +369,8 @@ p {
         </div>
     </div>
     <div class="hvrbox col-sm-4"> 
-      <p>Mountain Manager ski app</p>
-      <a href="">
+      <!-- <p>Mountain Manager ski app</p> -->
+      <a href="https://mjc5776.github.io/MountainManager/">
       <img src="https://mail.google.com/mail/u/0?ui=2&ik=3c0a3258c2&attid=0.1.1&permmsgid=msg-f:1618884009520852287&th=16776e6df00ced3f&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ9ySNUSKIGY5KiP-Sp7HQWCu2UzIJS8O58wnVo477nSxsXv6EBP3NIi5SRmnVmBUTXfpW7NrrAT2Ovu32jq7rBHYnVf_LhUkMx4nM_nz98Ry-xCoH4qUtVMuYs&disp=emb" class="img-responsive" alt="Image"style="display:inline width:250px;height:300px;">
       <div class="hvrbox-layer_top">
           <div class="hvrbox-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ligula porttitor, lacinia sapien non.</div>
@@ -380,23 +380,27 @@ p {
   </div>
   <div class="row">
     <div class="hvrbox col-sm-4">
-        <p>Lorem ipsum..</p>  
-      <img src="https://cdn-images-1.medium.com/max/2000/1*rV6_99F42Jr7uR5YtLrHrQ.jpeg" class="img-responsive" alt="Image"style="display:inline width:250px;height:300px;">
+        <a href="https://vanya56.github.io/Psychic-Game/">
+        <!-- <p>Hangman Game</p>   -->
+      <img src="file:///Users/vanyalevchenko/Library/Containers/com.apple.mail/Data/Library/Mail%20Downloads/6D96D0E3-BBE3-4536-9A87-9BCCA6675A17/Screen%20Shot%202018-12-16%20at%209.04.35%20PM.png" class="img-responsive" alt="Image"style="display:inline width:250px;height:300px;">
         <div class="hvrbox-layer_top">
             <div class="hvrbox-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ligula porttitor, lacinia sapien non.</div>
+        </a>
           </div>
       </div>
       
       <div class="hvrbox col-sm-4">
-          <p>Lorem ipsum..</p>
-        <img src="https://cdn-images-1.medium.com/max/2000/1*rV6_99F42Jr7uR5YtLrHrQ.jpeg" class="img-responsive" alt="Image"style="display:inline width:250px;height:300px;">
+          <a href="https://vanya56.github.io/TriviaGame/">
+          <!-- <p>Trivia Game</p> -->
+        <img src="file:///Users/vanyalevchenko/Library/Containers/com.apple.mail/Data/Library/Mail%20Downloads/42CE7989-8161-4CF6-A3DE-66A3B19499E4/Screen%20Shot%202018-12-16%20at%209.15.45%20PM.png" class="img-responsive" alt="Image"style="display:inline width:250px;height:300px;">
         <div class="hvrbox-layer_top">
             <div class="hvrbox-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ligula porttitor, lacinia sapien non.</div>
+        </a>
           </div>
       </div>
    
       <div class="hvrbox col-sm-4"> 
-          <p>Lorem ipsum..</p>
+          <!-- <p>Lorem ipsum..</p> -->
         <img src="https://cdn-images-1.medium.com/max/2000/1*rV6_99F42Jr7uR5YtLrHrQ.jpeg" class="img-responsive" alt="Image"style="display:inline width:250px;height:300px;">
         <div class="hvrbox-layer_top">
         <div class="hvrbox-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ligula porttitor, lacinia sapien non.</div>
@@ -440,7 +444,7 @@ p {
                     <a class="conimg" href="https://github.com/Vanya56">
                       <img src="https://png.pngtree.com/svg/20170920/ico_github_1287535.png" class="img-responsive" alt="GitHub Image"style="width:50px;height:50px;">
                   </a>
-                  <a class="conimg" href="">
+                  <a class="conimg" href="linkedin.com/in/vanya-levchenko">
                       <img src="https://www.outlookminik.com/images/linkedin-icon-dark.png" class="img-responsive" alt="Linkedin Image"style="width:50px;height:50px;">
                   </a>
                   </div> 
